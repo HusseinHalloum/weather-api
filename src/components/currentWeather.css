@@ -1,0 +1,42 @@
+.app__main{
+    background-color: #88c2e3;
+}
+.first__main{
+    text-align: center;
+    padding-bottom: 30px;
+}
+img{
+    margin-top:10px;
+    width: 100px;
+    height: 100px;
+  }
+.temperature{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.humandpre{
+    word-spacing: 7px;
+    font-size: 13px;
+}
+.first__main p:first-of-type{
+    color: white;
+    font-weight: bold;
+}
+.degree::after{
+   content: "\00B0";
+}
+.second__main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.smallImage{
+    padding-left: 50px;
+    text-align: center;
+    background-color: #88c2e3;
+    margin-top: 0px;
+}
+.smallImage img{
+    width: 60px;
+}

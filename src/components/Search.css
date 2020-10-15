@@ -1,0 +1,36 @@
+.searchBox{
+    color: #1b004b;
+    padding-top: 5px;
+    height: 60px;
+    padding: 5px;
+    background-color: #688ac4;
+  }
+  #location{
+    width: 300px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    background-color: #688ac4;
+    border: none;
+    color: white;
+  }
+  #findWeather{
+    margin-top: 15px;
+    color: #210055;
+    background-color: #586ec4;
+    border: none;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+  }
+  #findWeather:focus{
+    outline: none !important;
+  }
+  #location:focus{
+    outline: none ;
+    border-bottom: 0.5px solid lightslategrey ;
+  }
+  #location::placeholder{
+    color: white;
+  }
